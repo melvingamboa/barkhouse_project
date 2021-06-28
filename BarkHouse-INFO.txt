@@ -2,6 +2,7 @@ BarkHouse
 
 PAGES
 
+TinDogs
 About Us
 Contact Us
 Dog Breeds
@@ -15,4 +16,5 @@ Login/Signup
 FEATURES
 	- Adopt a friend/ you can adopt a dog
 	- Purchase a pet - Customer can purchase a pet
+	- Post a male/or female Dog for breeding
 	
