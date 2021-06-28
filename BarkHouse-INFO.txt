@@ -1,0 +1,18 @@
+BarkHouse
+
+PAGES
+
+About Us
+Contact Us
+Dog Breeds
+Shop
+    - include dog/cat foods
+    - toys etc.
+Adopt me
+    - adopt a dog/cat
+Login/Signup
+
+FEATURES
+	- Adopt a friend/ you can adopt a dog
+	- Purchase a pet - Customer can purchase a pet
+	
