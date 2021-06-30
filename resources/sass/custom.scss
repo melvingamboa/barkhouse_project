@@ -9,60 +9,77 @@ body {
 }
 
 .header {
+  position: relative;
   background: $white;
 
-  .navbar {
-    background-color: $white !important;
+  .menu {
+    position: relative;
+    background: $white;
+    z-index: 1;
 
-    .upper {
-      a {
-        color: $black !important;
-        font-size: 16px;
-        font-weight: 500;
-        text-transform: uppercase;
+    .navbar {
+      background-color: $white !important;
 
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
-      }
-    }
-
-    .lower {
-      margin-bottom: 0;
-
-      i {
-        color: $black;
-        font-size: 20px;
-        vertical-align: middle;
-        cursor: pointer;
+      .upper {
+        a {
+          color: $black !important;
+          font-size: 16px;
+          font-weight: 500;
+          text-transform: uppercase;
+          padding-left: 1.5rem;
+          padding-right: 1.5rem;
+        }
       }
 
-      li {
-        margin: 0 12px;
-        display: inline-block;
+      .lower {
+        margin-bottom: 0;
+
+        i {
+          color: $black;
+          font-size: 20px;
+          vertical-align: middle;
+          cursor: pointer;
+        }
+
+        li {
+          margin: 0 12px;
+          display: inline-block;
+        }
       }
     }
   }
-}
 
-.dropdown-content {
-  background: $blue;
+  .dropdown-content {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: $blue;
+    visibility: hidden;
+    z-index: 0;
 
-  ul {
-    margin: 0;
-    padding: 15px 0;
+    ul {
+      margin: 0;
+      padding: 15px 0;
 
-    li {
-      width: 13%;
-      list-style: none;
-      display: inline-block;
-      text-align: center;
+      li {
+        width: 13%;
+        list-style: none;
+        display: inline-block;
+        text-align: center;
 
-      a {
-        color: $white;
-        font-size: 14px;
-        font-weight: 400;
-        text-transform: uppercase;
+        a {
+          color: $white;
+          font-size: 14px;
+          font-weight: 400;
+          text-transform: uppercase;
+        }
       }
+    }
+
+    &.active {
+      top: 75px;
+      visibility: visible;
+      transition: all 250ms ease-in-out;
     }
   }
 }
