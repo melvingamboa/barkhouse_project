@@ -2,18 +2,17 @@
 @section('title', 'Home')
 
 @section('content')
-<center>
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <p>...</p>
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-</center>
+<section class="hero">
+    <div class="container">
+        <h1>Be my friend Doggo! Pawlease???</h1>
+        <div class="row">
+            <div class="col-md-7">
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
 @endsection

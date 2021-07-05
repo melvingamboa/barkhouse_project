@@ -10088,6 +10088,9 @@ body {
   margin-left: 15px;
   font-size: 18px;
 }
+.footer .hero {
+  background-image: url(/images/hero.jpg?d6e544ffff9ff07f871ddb6a24d1a374);
+}
 
 /*! 
 * @package IcoFont 

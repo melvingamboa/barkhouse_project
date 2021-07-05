@@ -59,7 +59,7 @@
             </div>
         </div>
 
-        <div class="dropdown-content resources">
+        <div class="dropdown-content resources active">
             <div class="container">
                 <ul>
                     <li><a href="#">Home</a></li>
