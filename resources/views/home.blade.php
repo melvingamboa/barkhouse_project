@@ -7,12 +7,9 @@
         <h1>Be my friend Doggo! Pawlease???</h1>
         <div class="row">
             <div class="col-md-7">
-                <p>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                </p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
             </div>
         </div>
     </div>
 </section>
-
 @endsection

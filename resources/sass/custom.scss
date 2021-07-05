@@ -5,7 +5,6 @@ $dirty_white: #dddddd;
 
 body {
   font-family: 'Poppins', sans-serif;
-  background: $dirty_white;
 }
 
 .header {
@@ -84,6 +83,11 @@ body {
   }
 }
 
+.content {
+  padding: 20px 0;
+  margin-top: 50px;
+}
+
 .footer {
   color: $white;
   font-size: 13px;
@@ -105,8 +109,8 @@ body {
       font-size: 18px;
     }
   }
+}
 
-  .hero {
-    background-image: linear-gradient(rgba(102,51,0,0.6),rgba(153,102,0.2), url(../images/hero.jpg));
-  }
+.hero {
+  background-image: linear-gradient(rgba(102, 51, 0, 0.6), rgba(153, 102, 0.2), url(../images/hero.jpg));
 }
