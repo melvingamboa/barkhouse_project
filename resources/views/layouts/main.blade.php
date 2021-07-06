@@ -75,9 +75,7 @@
     </div>
 
     <div class="content">
-        <div class="container">
-            @yield('content')
-        </div>
+        @yield('content')
     </div>
 
     <div class="footer">
@@ -95,6 +93,7 @@
     </div>
 
     <script src="{{ asset('js/menu.js') }}"></script>
+    @yield('scripts')
 </body>
 
 </html>

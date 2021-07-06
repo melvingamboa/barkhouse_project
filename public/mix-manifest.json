@@ -1,7 +1,9 @@
 {
     "/js/app.js": "/js/app.js",
     "/js/menu.js": "/js/menu.js",
+    "/js/breed.js": "/js/breed.js",
     "/css/app.css": "/css/app.css",
+    "/images/corgi.jpg": "/images/corgi.jpg",
     "/images/hero.jpg": "/images/hero.jpg",
     "/images/logo.png": "/images/logo.png"
 }
