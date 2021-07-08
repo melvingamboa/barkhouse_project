@@ -2,14 +2,19 @@
 @section('title', 'Home')
 
 @section('content')
-<section class="hero">
+
+<div class="hero-banner" style="background-image: url('../images/doggy.jpg')">
+    <div class="overlay"></div>
     <div class="container">
-        <h1>Be my friend Doggo! Pawlease???</h1>
-        <div class="row">
-            <div class="col-md-7">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+        <div class="col-sm-5">
+            <div class="text">
+                <div class="header-title">HENLO FRIENDS</div>
+                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna arcu, suscipit sed tellus id, consectetur laoreet libero.</div>
+            </div>
+            <div class="btn btn-dark btn-sm mt-2">
+                ADOPT ME..
             </div>
         </div>
     </div>
-</section>
+</div>
 @endsection

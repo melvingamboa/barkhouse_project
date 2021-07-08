@@ -54,7 +54,7 @@
             <div class="container">
                 <ul>
                     <li><a href="#">Cat</a></li>
-                    <li><a href="#">Dogs</a></li>
+                    <li><a href="/breed">Dogs</a></li>
                 </ul>
             </div>
         </div>
@@ -62,7 +62,7 @@
         <div class="dropdown-content resources active">
             <div class="container">
                 <ul>
-                    <li><a href="#">Home</a></li>
+                    <li><a href="/">Home</a></li>
                     <li><a href="#">Shop</a></li>
                     <li><a href="#">TinDogs</a></li>
                     <li><a href="#">Breeds</a></li>
