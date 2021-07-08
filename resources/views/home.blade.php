@@ -3,7 +3,7 @@
 
 @section('content')
 
-<div class="hero-banner" style="background-image: url('../images/doggy.jpg')">
+<div class="background-image-full hero-banner" style="background-image: url('../images/doggy.jpg')">
     <div class="overlay"></div>
     <div class="container">
         <div class="col-sm-5">

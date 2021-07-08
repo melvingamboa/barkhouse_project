@@ -19,7 +19,7 @@
         <div class="menu">
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="/">
                         <img src="{{ asset('images/logo.png') }}" />
                     </a>
 
@@ -54,7 +54,7 @@
             <div class="container">
                 <ul>
                     <li><a href="#">Cat</a></li>
-                    <li><a href="/pages/breed">Dogs</a></li>
+                    <li><a href="{{ url('/pages/breed') }}">Dogs</a></li>
                 </ul>
             </div>
         </div>
@@ -62,7 +62,7 @@
         <div class="dropdown-content resources active">
             <div class="container">
                 <ul>
-                    <li><a href="/">Home</a></li>
+                    <li><a href="{{ url('/') }}">Home</a></li>
                     <li><a href="#">Shop</a></li>
                     <li><a href="#">TinDogs</a></li>
                     <li><a href="#">Breeds</a></li>
