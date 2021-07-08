@@ -54,7 +54,7 @@
             <div class="container">
                 <ul>
                     <li><a href="#">Cat</a></li>
-                    <li><a href="/breed">Dogs</a></li>
+                    <li><a href="/pages/breed">Dogs</a></li>
                 </ul>
             </div>
         </div>
