@@ -68,20 +68,37 @@
 </div>
 
 <div class="container">
-    <br />
-    <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna arcu, suscipit sed tellus id, consectetur laoreet libero. Maecenas eget varius sem, nec sagittis turpis. Duis dapibus nec nunc sit amet ultrices. Praesent vitae quam vel est blandit placerat at eu arcu. Nulla vitae dolor eu libero gravida tincidunt. Cras aliquet vitae libero eget sodales. Vivamus bibendum nibh vel risus rhoncus fermentum.
-    </p>
+    <div class="row breed-class">
+        <div class="col-sm-4">
+            <div class="item" style="background-image: url('../images/class1.jpg')">
+                <div class="overlay"></div>
+                <div class="text">
+                    <div>Apartment Dogs</div>
+                    <button class="btn btn-light btn-sm">Show all</button>
+                </div>
+            </div>
+        </div>
 
-    <p>
-        Suspendisse id ultricies purus, et convallis magna. Mauris luctus, velit a mollis blandit, dui nibh vehicula erat, in faucibus lacus tortor nec velit. Quisque fringilla sed dui sit amet pretium. Maecenas sed mauris tellus. Aenean sit amet nibh in magna tempor gravida vel vitae massa. Donec a molestie tortor. Pellentesque pharetra porta tellus sit amet efficitur. Quisque pretium enim felis, nec accumsan dolor efficitur id. Maecenas sollicitudin lorem vitae placerat interdum. Vestibulum maximus convallis lectus, at aliquam tortor volutpat vitae. Maecenas eu quam turpis. Donec egestas tincidunt felis ut suscipit. Suspendisse quis lobortis diam.
-    </p>
+        <div class="col-sm-4">
+            <div class="item" style="background-image: url('../images/class2.jpg')">
+                <div class="overlay"></div>
+                <div class="text">
+                    <div>Large Dogs</div>
+                    <button class="btn btn-light btn-sm">Show all</button>
+                </div>
+            </div>
+        </div>
 
-    <p>
-        Vivamus nec gravida nisi. Morbi egestas mauris at quam blandit faucibus. Morbi pulvinar lectus et dapibus consectetur. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam ultrices eleifend enim eu egestas. Mauris at sodales leo. Duis laoreet ipsum vel turpis consequat feugiat quis egestas lectus.
-    </p>
-
-    <br />
+        <div class="col-sm-4">
+            <div class="item" style="background-image: url('../images/class3.jpg')">
+                <div class="overlay"></div>
+                <div class="text">
+                    <div>Hypoallergenic Dogs</div>
+                    <button class="btn btn-light btn-sm">Show all</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 @endsection
 
