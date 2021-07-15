@@ -22,3 +22,4 @@ Route::get('/', function () {
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index']);
 Route::get('/pages/breed', [App\Http\Controllers\BreedController::class, 'index']);
+Route::get('/login', [App\Http\Controllers\BreedController::class, 'login']);

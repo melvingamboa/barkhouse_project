@@ -42,7 +42,7 @@
                             <ul class="lower">
                                 <li><i class="icofont-search-2"></i></li>
                                 <li><a href="#">Sign Up</a></li>
-                                <li><a href="#">Log In</a></li>
+                                <li><a href="{{ url('/login') }}">Log In</a></li>
                             </ul>
                         </span>
                     </div>
