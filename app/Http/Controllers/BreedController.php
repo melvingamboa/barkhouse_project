@@ -16,6 +16,11 @@ class BreedController extends Controller
         return view('/pages/breed');
     }
 
+    public function login()
+    {
+        return view('/login');
+    }
+
     /**
      * Show the form for creating a new resource.
      *
