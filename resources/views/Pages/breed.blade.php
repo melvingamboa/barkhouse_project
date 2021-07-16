@@ -1,6 +1,6 @@
 @extends('layouts.main')
 @section('title', 'Breed')
-@section('page', 'page-breed')
+@section('page','page-breed')
 
 @section('content')
 <div class="background-image-full" style="background-image: url('../images/corgi.jpg')">
