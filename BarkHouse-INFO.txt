@@ -16,5 +16,4 @@ Login/Signup
 FEATURES
 	- Adopt a friend/ you can adopt a dog
 	- Purchase a pet - Customer can purchase a pet
-	- Post a male/or female Dog for breeding
-	
+	- Post a male/or female Dog for breedings
