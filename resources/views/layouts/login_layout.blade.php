@@ -4,11 +4,6 @@
 <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
 <body class="@yield('page')">
-
-    {{-- <div class="content">
-        @yield('content')
-    </div> --}}
-
     <script src="{{ asset('js/menu.js') }}"></script>
     @yield('scripts')
 </body>

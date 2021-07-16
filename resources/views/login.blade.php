@@ -1,34 +1,39 @@
 @extends('layouts.login_layout')
 @section('page', 'page-login')
-<section class="Form my-4 mx-5">
-    <div class="container">
-        <div class="row no-gutters">
-            <div class="col-md-5">
-                <img src="{{ asset('images/login_logo.png') }}" class="img-fluid img" alt="">
-            </div>
-            <div class="col-md-7">
-                    <form action="" class="pt-5">
-                        <div class="form-now">
-                            <div class="col-md-7">
-                                <input type="email" placeholder="Email-Address" class="form-control">
-                            </div>
-                        </div>
+<section>
+    <div class="imgBx">
+        <img src="{{ asset('images/husky_login.jpg') }}" class="img-fluid img" alt="">
+    </div>
+    <div class="contentBx">
+        <div class="formBx">
+             <h2>Login</h2>
+             <form action="">
+                 <div class="inputBx">
+                    <span>Email Address</span>
+                    <input type="text" name="email_address" id="email_address">
+                </div>
+                 <div class="inputBx">
+                    <span>Password</span>
+                    <input type="password" name="password" id="password">
+                 </div>
+                 <div class="remember">
+                    <label for="remember"><input type="checkbox" name="remember"> Remember me</label>
+                 </div>
+                 <div class="inputBx">
+                      <input type="submit" value="Sign in" name="">
+                 </div>
 
-                        <div class="form-now">
-                            <div class="col-md-7">
-                                <input type="password" placeholder="******" class="form-control">
-                            </div>
-                        </div>
+                 <div class="inputB0x">
+                   <p>Dont have an account?<a href="#"> Sign up</a></p>
+               </div>
+             </form>
 
-                        <div class="form-now">
-                            <div class="col-md-7">
-                                <button type="buton" class="btn1 form-control btn-sm">Login</button>
-                            </div>
-                        </div>
-                         <a href="#" class="pl-3">Forgot password</a>
-                         <p class="pl-3">Dont have an account? <a href="#">Register Here!</a></p>
-                    </form>
-            </div>
+             <h3>Login with social media</h3>
+             <ul class="sci">
+                 <li><img src="{{ asset('images/facebook.png') }}" alt=""></li>
+                 <li><img src="{{ asset('images/twitter.png') }}" alt=""></li>
+                 <li><img src="{{ asset('images/instagram.png') }}" alt=""></li>
+             </ul>
         </div>
     </div>
 </section>
